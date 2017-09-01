@@ -1,3 +1,11 @@
+beotie_core:
+    resource: "@BeotieCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+beotie_user:
+    resource: "@BeotieUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
